@@ -1,0 +1,74 @@
+body {
+	background-image: url(/assets/img/map.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.navbar-brand img{
+	margin-top: -10px;
+}
+#map{
+	height: 400px;
+	margin: 15px !important;
+	margin: 0 auto;
+}
+#add, #edit{
+	width: 30%;
+	margin-top: 30px;
+	margin-left: 15px;
+}
+#footer{
+	height: 60px;
+	background: #080808;
+	margin-top: 30px;
+	width: 100%;
+}
+input, textarea{
+	margin: 5px 0;
+}
+.json-blocks{
+	margin: 15px;
+}
+.json-block{
+	background: white;
+	width: 49%;
+	float: left;
+	padding: 15px;
+	border: 1px solid black;
+	border-radius: 10px;
+	margin-top: 15px; 
+}
+.json-block:nth-child(odd){
+	margin-right: 2%;
+}
+.json-block a{
+	margin-top: 5px;
+	width: 100px;
+}
+.right{
+	text-align: right;
+}
+.white-square{
+	height: 430px;
+	background: white;
+	margin: 15px;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+form{
+	background: white;
+	padding: 15px;
+	border: 1px solid black;
+	border-radius: 10px;
+}
+#home{
+	margin-top: 15px;
+}
+.array-block{
+	background: white;
+	margin: 15px;
+	margin-top: 30px;
+	padding: 15px;
+	border: 1px solid black;
+	border-radius: 10px;
+}
